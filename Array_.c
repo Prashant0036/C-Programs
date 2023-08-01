@@ -21,10 +21,9 @@ printf("%d\n",a[2]);
 //change value of an Array item
  a[2]=30;
  printf("Changed value of a[2] \n");
- printf("%d\n",a[2]);
+ printf("%d",a[2]);
 
 // Traversing in Array with for loop
-printf("Traversing Marks Array");
 int Marks[10]={90,67,88,67,56,88,68,97,87,45};
 
  for(int i=0;i<10;i++){

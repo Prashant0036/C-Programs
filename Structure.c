@@ -6,7 +6,6 @@ char carnm[30];
 char carmdl[20];
 
 };
-struct myStructure2{};
 void main(){
 struct myStructure s1;
 struct myStructure s2;
@@ -24,12 +23,12 @@ s3.carno=8630;
 strcpy(s3.carnm,"Audi");
 strcpy(s3.carmdl,"r8");
 
-printf(" Car No. %d \t %d \t %d\n",s1.carno, s2.carno,s3.carno);
-printf(" Car Name: %s\t%s\t %s\n",s1.carnm,s2.carnm,s3.carnm);
-printf(" Car Model: %st %s\t%s\n",s1.carmdl,s2.carmdl,s3.carmdl);
+printf(" Car No. %d \t %d \t %d",s1.carno, s2.carno,s3.carno);
+printf(" Car Name: %s\t%s\t %s",s1.carnm,s2.carnm,s3.carnm);
+printf(" Car Model: %st %s\t%s",s1.carmdl,s2.carmdl,s3.carmdl);
 
 
-// simple program to understand structure?
+
 
 
 
